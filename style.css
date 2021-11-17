@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#slider {
+  margin: 15% 25%;
+  position: relative;
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: 1s;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+  float: left;
+}
+#slider ul li {
+  width: 700px;
+  height: 400px;
+  display: flex;
+}
+li{
+  font-size: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+ 
